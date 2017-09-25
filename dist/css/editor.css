@@ -4150,48 +4150,48 @@ a.external::after {
   display: inline-block;
 }
 
-a[href$=".doc"]::before,
-a[href$=".DOC"]::before,
-a[href$=".docx"]::before,
-a[href$=".DOCX"]::before,
+a[href$=".doc"] > span::before,
+a[href$=".DOC"] > span::before,
+a[href$=".docx"] > span::before,
+a[href$=".DOCX"] > span::before,
 .doc::before {
   margin-right: 5px;
   content: "\F016";
   font-family: FontAwesome;
 }
 
-a[href$=".xls"]::before,
-a[href$=".XLS"]::before,
-a[href$=".xlsx"]::before,
-a[href$=".XLSX"]::before,
+a[href$=".xls"] > span::before,
+a[href$=".XLS"] > span::before,
+a[href$=".xlsx"] > span::before,
+a[href$=".XLSX"] > span::before,
 .xls::before {
   margin-right: 5px;
   content: "\F1C3";
   font-family: FontAwesome;
 }
 
-a[href$=".gz"]::before,
-a[href$=".GZ"]::before,
-a[href$=".gzip"]::before,
-a[href$=".GZIP"]::before,
-a[href$=".zip"]::before,
-a[href$=".ZIP"]::before,
+a[href$=".gz"] > span::before,
+a[href$=".GZ"] > span::before,
+a[href$=".gzip"] > span::before,
+a[href$=".GZIP"] > span::before,
+a[href$=".zip"] > span::before,
+a[href$=".ZIP"] > span::before,
 .archive::before {
   margin-right: 5px;
   content: "\F1C6";
   font-family: FontAwesome;
 }
 
-a[href$=".exe"]::before,
-a[href$=".EXE"]::before,
+a[href$=".exe"] > span::before,
+a[href$=".EXE"] > span::before,
 .application::before {
   margin-right: 5px;
   content: "\F022";
   font-family: FontAwesome;
 }
 
-a[href$=".pdf"]::before,
-a[href$=".PDF"]::before,
+a[href$=".pdf"] > span::before,
+a[href$=".PDF"] > span::before,
 .pdf::before {
   margin-right: 5px;
   content: "\F1C1";

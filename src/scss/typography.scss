@@ -196,10 +196,10 @@ a.external {
   }
 }
 
-a[href$=".doc"],
-a[href$=".DOC"],
-a[href$=".docx"],
-a[href$=".DOCX"],
+a[href$=".doc"] > span,
+a[href$=".DOC"] > span,
+a[href$=".docx"] > span,
+a[href$=".DOCX"] > span,
 .doc {
   &::before {
     margin-right: 5px;
@@ -208,10 +208,10 @@ a[href$=".DOCX"],
   }
 }
 
-a[href$=".xls"],
-a[href$=".XLS"],
-a[href$=".xlsx"],
-a[href$=".XLSX"],
+a[href$=".xls"] > span,
+a[href$=".XLS"] > span,
+a[href$=".xlsx"] > span,
+a[href$=".XLSX"] > span,
 .xls {
   &::before {
     margin-right: 5px;
@@ -220,12 +220,12 @@ a[href$=".XLSX"],
   }
 }
 
-a[href$=".gz"],
-a[href$=".GZ"],
-a[href$=".gzip"],
-a[href$=".GZIP"],
-a[href$=".zip"],
-a[href$=".ZIP"],
+a[href$=".gz"] > span,
+a[href$=".GZ"] > span,
+a[href$=".gzip"] > span,
+a[href$=".GZIP"] > span,
+a[href$=".zip"] > span,
+a[href$=".ZIP"] > span,
 .archive {
   &::before {
     margin-right: 5px;
@@ -234,8 +234,8 @@ a[href$=".ZIP"],
   }
 }
 
-a[href$=".exe"],
-a[href$=".EXE"],
+a[href$=".exe"] > span,
+a[href$=".EXE"] > span,
 .application {
   &::before {
     margin-right: 5px;
@@ -244,8 +244,8 @@ a[href$=".EXE"],
   }
 }
 
-a[href$=".pdf"],
-a[href$=".PDF"],
+a[href$=".pdf"] > span,
+a[href$=".PDF"] > span,
 .pdf {
   &::before {
     margin-right: 5px;
